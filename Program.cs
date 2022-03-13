@@ -59,9 +59,4 @@ for(int i = 1; i <= pages; ++i) {
     Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine($"Page {i}: {byForm} total claimed");
     Console.ForegroundColor = color;
-    /*var color = Console.ForegroundColor;
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.WriteLine($"Page {i}");
-    Console.ForegroundColor = color;
-    Console.WriteLine(response.Content);*/
 }
